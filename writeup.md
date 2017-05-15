@@ -26,7 +26,6 @@ The goals / steps of this project are the following:
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
-## [Writeup_template] (https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/writeup_template.md) 
 
 <b>Writeup / README</b>
 <table>
@@ -92,7 +91,23 @@ The goals / steps of this project are the following:
 	</tr>
 	<tr>
 		<td>Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.</td>
-		<td>[image5]</td>
+		<td>The fit from the rectified image has been warped back onto the original image and plotted to identify the lane boundaries. This could be found it in image example in this writeup.</td>
+	</tr>
+</table>
+
+<b>Pipeline (video)>
+<table>
+	<tr>
+		<th>Criteria</th>
+		<th>Meets Specifications</th>	
+	</tr>
+	<tr>
+		<td>
+			Provide a link to your final video output. Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!)
+		</td>
+		<td>
+			<a href="https://github.com/juanlvo/CarND-Advanced-Lane-Lines/blob/master/project_video.mp4">project_video.mp4</a> 
+		</td>
 	</tr>
 </table>
 
