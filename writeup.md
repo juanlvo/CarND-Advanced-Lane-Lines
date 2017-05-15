@@ -92,7 +92,7 @@ The goals / steps of this project are the following:
 	</tr>
 	<tr>
 		<td>Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.</td>
-		<td>![alt text][image5]</td>
+		<td>[image5]</td>
 	</tr>
 </table>
 
