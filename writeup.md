@@ -95,7 +95,7 @@ The goals / steps of this project are the following:
 	</tr>
 </table>
 
-<b>Pipeline (video)>
+<b>Pipeline (video)</b>
 <table>
 	<tr>
 		<th>Criteria</th>
@@ -107,6 +107,22 @@ The goals / steps of this project are the following:
 		</td>
 		<td>
 			<a href="https://github.com/juanlvo/CarND-Advanced-Lane-Lines/blob/master/project_video.mp4">project_video.mp4</a> 
+		</td>
+	</tr>
+</table>
+
+<b>Discussion</b>
+<table>
+	<tr>
+		<th>Criteria</th>
+		<th>Meets Specifications</th>
+	</tr>
+	<tr>
+		<td>
+			Briefly discuss any problems / issues you faced in your implementation of this project. Where will your pipeline likely fail? What could you do to make it more robust?
+		</td>
+		<td>
+			The biggest problem of this project was the detection of the lane line correctly under constants changes of the lights and colors of the pavements, that is the reason why it was need it to combinate so many space colors at the same time
 		</td>
 	</tr>
 </table>
