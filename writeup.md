@@ -24,8 +24,8 @@ The goals / steps of this project are the following:
 [image5]: plotted_image.png "Final Image"
 [image6]: calibration.png "Calibration"
 [image7]: warp.png "Warped image"
-[image8]: points1.png "Detection of points 1"
-[image9]: points2.png "Detection of points 2"
+[image8]: points_1.png "Detection of points 1"
+[image9]: points_2.png "Detection of points 2"
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
