@@ -62,6 +62,21 @@ The goals / steps of this project are the following:
 		<td>Provide an example of a distortion-corrected image.</td>
 		<td>Distortion correction that was calculated via camera calibration has been correctly applied to each image. An example of a distortion corrected image is include in this writeup.</td>
 	</tr>
+	<tr>
+		<td>
+			Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image. Provide an example of a binary image result.
+		</td>
+		<td>
+			In the project the function convertColorSpace which is in charge of make the transformation of several colors (Color space B from LAB, Color Space R, all colors spaces from HLS) spaces, Sobel x, Threshold x and y. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
+		</td>
+		<td>
+		</td>
+	</tr>
 </table>
 
 ---
