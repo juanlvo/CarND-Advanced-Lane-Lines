@@ -1,6 +1,4 @@
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
+## Writeup
 
 ---
 
@@ -28,8 +26,43 @@ The goals / steps of this project are the following:
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
+## [Writeup_template] (https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/writeup_template.md) 
 
-### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
+<b>Writeup / README</b>
+<table>
+	<tr>
+		<th>Criteria</th>
+		<th>Meets Specifications</th>
+	</tr>
+	<tr>
+		<td>Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf.</td>
+		<td>The writeup / README should include a statement and supporting figures / images that explain how each rubric item was addressed, and specifically where in the code each step was handled.</td>
+	</tr>
+</table>
+
+<b>Camera Calibration</b>
+<table>
+	<tr>
+		<th>Criteria</th>
+		<th>Meets Specifications</th>
+	</tr>
+	<tr>
+		<td>Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.</td>
+		<td>OpenCV functions or other methods were used to calculate the correct camera matrix and distortion coefficients using the calibration chessboard images provided in the repository (note these are 9x6 chessboard images, unlike the 8x6 images used in the lesson). The distortion matrix should be used to un-distort one of the calibration images provided as a demonstration that the calibration is correct. Example of undistorted calibration image is Included in the writeup (or saved to a folder).</td>
+	</tr>
+</table>
+
+<b>Pipeline (test images)</b>
+<table>
+	<tr>
+		<th>Criteria</th>
+		<th>Meets Specifications</th>		
+	</tr>
+	<tr>
+		<td>Provide an example of a distortion-corrected image.</td>
+		<td>Distortion correction that was calculated via camera calibration has been correctly applied to each image. An example of a distortion corrected image is include in this writeup.</td>
+	</tr>
+</table>
 
 ---
 
