@@ -18,10 +18,10 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: example_image_undistorted.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image5]: ./examples/color_fit_lines.jpg "Fit Visual"
+[image2]: combination_of_color_spaces_and_perspective.png "Color spaces and perspective"
+[image3]: lane_lines_detection_1.png "Lane lines detection 1"
+[image4]: lane_lines_detection_2.png "Lane lines detection 2"
+[image5]: plotted_image.png "Final Image"
 [image6]: ./examples/example_output.jpg "Output"
 [video1]: ./project_video.mp4 "Video"
 
@@ -75,7 +75,24 @@ The goals / steps of this project are the following:
 			Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 		</td>
 		<td>
+			In the code you can find the function def warp where is finded the perspective of the image.
 		</td>
+	</tr>
+	<tr>
+		<td>Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?</td>
+		<td>In the method process_image can be found all the process related with the detection of the line lines, the method used to identify was polynomial. Example images with line pixels identified and a fit overplotted are included in this writeup.</td>
+	</tr>
+	<tr>
+		<td>
+			Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
+		</td>
+		<td>
+			The equation use it was R = (1+(2Ay+B)**2)**1.5)/abs(2A) and was used a convertion pixel/meters ym_per_pix = 30/720 and xm_per_pix = 3.7/700 all of this was implemented at the end of the method process_image
+		</td>
+	</tr>
+	<tr>
+		<td>Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.</td>
+		<td>![alt text][image5]</td>
 	</tr>
 </table>
 
